@@ -32,10 +32,10 @@ body{
     grid-row: 1;
 }
 .x{
-    height: 8vh;
-
+    height: 18vh;
+    
 }
-.o{
+.h{
     height: 8vh;
 
 }
@@ -51,7 +51,25 @@ body{
     border-radius: 20px;
     margin: 8%;
     box-shadow: 0px 7px #0E2029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.square:hover{
+    margin-top: 4%;
+    margin-bottom: 12%;
+    box-shadow: 0px 12px #0E2029;
+    cursor: pointer;
+}
+
+.square:active {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    box-shadow: 0px 0px #0E2029;
+    cursor: pointer;
+}
+
+
 .semiSquare{
     border-radius: 20px;
     margin: 8%;
@@ -89,6 +107,11 @@ body{
     box-shadow: 0px 7px #738A95;
     width: 33%;
     justify-self: end;
+}
+.repeat:hover{
+    margin-top: 4%;
+    margin-bottom: 12%;
+    box-shadow: 0px 12px #738A95;
 }
 .minor{
     display: flex;
