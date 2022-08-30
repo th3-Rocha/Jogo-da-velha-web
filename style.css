@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    user-select: none;
 }
 .repeat{
     display: flex;
@@ -33,7 +34,6 @@ body{
 }
 .x{
     height: 18vh;
-    
 }
 .h{
     height: 8vh;
@@ -54,6 +54,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.1s ease 0s;
+
 }
 .square:hover{
     margin-top: 4%;
