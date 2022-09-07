@@ -32,7 +32,8 @@ body{
     grid-column: 1;
     grid-row: 1;
 }
-.x{
+.xo{
+    display: block;
     height: 18vh;
 }
 .h{
@@ -65,7 +66,7 @@ body{
 }
 
 .square:active {
-    margin-top: 10%;
+    margin-top: 7%;
     margin-bottom: 5%;
     box-shadow: 0px 0px #0E2029;
     cursor: pointer;
